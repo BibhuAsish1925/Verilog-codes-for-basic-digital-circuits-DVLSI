@@ -2,7 +2,7 @@
 
 module half_adder(
   input a,b,
-  //output sum, carry, 
+  //output sum, carry,  // for dataflow and gateflow
   output reg sum, carry //behvioural only
   );
   
