@@ -6,7 +6,7 @@ This page is for Verilog codes for some basic digital circuits necessary for aca
 ### In a design.v code, there contain multiple models of verilog code which are :-
 1. Dataflow
 2. Behavioural
-3. Structural (rarely)
+3. Structural
 4. Gatelevel
 
 ### While testing we need to keep some points in our mind :-
