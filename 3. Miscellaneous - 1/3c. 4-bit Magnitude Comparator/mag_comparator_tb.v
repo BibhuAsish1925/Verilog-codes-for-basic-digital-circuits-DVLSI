@@ -1,4 +1,4 @@
-module tb_8();
+module tb();
   reg [3:0] a,b;
   wire lt,eq,gt;
   
@@ -16,4 +16,5 @@ module tb_8();
     $finish;
     
   end
+
 endmodule
