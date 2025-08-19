@@ -27,22 +27,11 @@ Mostly there will be less or no chances of error since the codes are already tes
 The repository is organized into multiple categories of digital circuits:
 
 - [**1. Logic_gates**](./1.%20Logic_gates)  
-  Basic AND, OR, NOT, NAND, NOR, XOR, XNOR gates.  
-
 - [**2. Adders and Subtractors**](./2.%20Adders%20and%20Subtractors)  
-  Half Adder, Full Adder, Ripple Carry Adder, Subtractor, BCD Adder.  
-
 - [**3. Miscellaneous - 1**](./3.%20Miscellaneous%20-%201)  
-  Other basic combinational circuits.  
-
 - [**4. Multiplexers and Demultiplexers**](./4.%20Multiplexers%20and%20Demultiplexers)  
-  2x1 MUX, 4x1 MUX, 1x2 DEMUX, 1x4 DEMUX.  
-
 - [**5. Encoders and Decoders**](./5.%20Encoders%20and%20Decoders)  
-  Encoder, Priority Encoder, 2x4 Decoder, 3x8 Decoder.  
-
 - [**6. Latches & Flip-Flops**](./6.%20Latches%20&%20Flip-Flops)  
-  SR Latch, D Latch, JK Flip-Flop, D Flip-Flop, T Flip-Flop.  
 
 ---
 
@@ -53,8 +42,3 @@ The repository is organized into multiple categories of digital circuits:
 - Helpful for **lab work, projects, and interviews**.  
 
 ---
-
-## 🚀 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/BibhuAsishPanda1925/Verilog-codes-for-basic-digital-circuits-DVLSI.git
