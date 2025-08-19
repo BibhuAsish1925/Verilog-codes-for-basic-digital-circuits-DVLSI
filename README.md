@@ -12,6 +12,8 @@
 
 This page is for Verilog codes for some basic digital circuits necessary for **academic** as well as **interview** prospective.
 
+---
+
 ### In a design.v code, there contain multiple models of Verilog code which are :-
 1. Dataflow  
 2. Behavioural  
