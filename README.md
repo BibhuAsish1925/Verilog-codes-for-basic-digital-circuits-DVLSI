@@ -1,6 +1,17 @@
 # Verilog-codes-for-basic-digital-circuits-DVLSI
 
-### Made by - Bibhu Asish Panda, 2022-26 batch, Silicon University, BBSR
+---
+
+## 👨‍🎓 Author & Credits  
+
+<p align="center">
+  <b>Made by</b><br>
+  <span style="font-size:18px">✨ <b>Bibhu Asish Panda</b> ✨</span><br>
+  🎓 2022–26 Batch, Silicon University, Bhubaneswar (BBSR)  
+</p>
+
+---
+
 This page is for Verilog codes for some basic digital circuits necessary for **academic** as well as **interview** prospective.
 
 ---
