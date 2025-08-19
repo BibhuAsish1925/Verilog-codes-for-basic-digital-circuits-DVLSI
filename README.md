@@ -3,7 +3,7 @@
 --- 
 
 <p align="center">
-  <b>Made by - </b><br>
+  <b>Made by </b><br>
   <span style="font-size:40px"> <b>Bibhu Asish Panda</b> </span><br>
   🎓 2022–26 Batch, Silicon University, Bhubaneswar (BBSR)  
 </p>
