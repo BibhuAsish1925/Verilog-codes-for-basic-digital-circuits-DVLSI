@@ -7,7 +7,7 @@ module tb();
 
   initial begin
     $dumpfile("dump.vcd");
-    $dumpvars(0, tb10);
+    $dumpvars(0, tb);
 
     in = 8'b00000000; #10;
     in = 8'b00000001; #10;
@@ -21,5 +21,6 @@ module tb();
 
     $finish;
   end
+
 
 endmodule
