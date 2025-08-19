@@ -3,7 +3,7 @@
 module half_adder(
   input a,b,
   output sum, carry, 
-  output reg sum, carry //behvioural only
+  //output reg sum, carry //behvioural only
   );
   
   
@@ -13,7 +13,7 @@ module half_adder(
   
   
   //behavioural
-  /*always @(a,b)
+  always @(a,b)
     begin 
       if(a==1'b0 && b==1'b0)
         begin 
@@ -35,12 +35,12 @@ module half_adder(
           sum<=1'b0;
           carry<=1'b1;
         end
-    end*/
+    end
   
   
   //gatelevel
-  xor s(sum,a,b);
-  and co(carry,a,b);
+  /*xor s(sum,a,b);
+  and co(carry,a,b);*/
              
 endmodule
 
