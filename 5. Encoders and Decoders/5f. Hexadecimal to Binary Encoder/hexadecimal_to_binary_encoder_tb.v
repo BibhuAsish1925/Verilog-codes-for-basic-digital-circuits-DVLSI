@@ -7,7 +7,7 @@ module tb;
 
   initial begin
     $dumpfile("hex_encoder.vcd");
-    $dumpvars(0, tb11);
+    $dumpvars(0, tb);
 
     in = 16'h0000; #10;
     in = 16'h8000; #10;
@@ -18,3 +18,4 @@ module tb;
   end
 
 endmodule
+
