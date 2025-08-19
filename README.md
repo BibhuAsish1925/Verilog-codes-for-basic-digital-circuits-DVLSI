@@ -12,7 +12,7 @@ This page is for Verilog codes for some basic digital circuits necessary for **a
 
 ---
 
-### While testing we need to keep some points in our mind :-
+### ✅ While testing we need to keep some points in our mind :-
 1. Choose one model and remove the Multi-line comment Block (`/* */`) at first and last of the model block.  
 2. Remember the model blocks should be under (`/* */`) since we can choose only 1 model at a time.  
 3. While executing all the models, use `output x,y,z` except in case of behavioural model i.e., `output reg x,y,z`. So comment the unused line.  
