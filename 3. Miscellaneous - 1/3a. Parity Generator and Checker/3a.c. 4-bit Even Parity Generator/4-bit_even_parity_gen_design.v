@@ -1,3 +1,5 @@
+// whichever model you want just remove /* */ and change b/w output and output reg
+
 module bit_4_even_parity_gen(
   input b0,b1,b2,b3,
   wire w[0:1], //for gatelevel and structural only
@@ -130,3 +132,4 @@ module xor1(c,a,b);
   assign c = a ^ b;
 endmodule
             
+
