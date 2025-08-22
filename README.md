@@ -48,6 +48,22 @@ The repository is organized into multiple categories of digital circuits:
 
 ---
 
+## 📂 Folder Structure
+
+Each project folder contains:
+- `design.v` – The Verilog RTL code
+- `tb.v` – The testbench to verify the design
+- Optionally: waveform outputs, simulation logs
+
+---
+
+## 🛠 Tools Used
+- Verilog HDL
+- EDA playground / Vivado
+- Git & GitHub for version control
+
+---
+
 ## ✅ Features
 - Covers **basic to intermediate Verilog codes**.  
 - Each design written in **multiple coding styles** (Dataflow, Behavioural, Structural, Gate-level).  
