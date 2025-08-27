@@ -1,23 +1,30 @@
-module T_flip_flop(
-  input t,
-  input clk,
-  output reg q,q_bar  //for behavioural model
+module T_flip_flop (
+  input t,clk, pst,clr,
+  output reg q,q_bar
 );
-  
+
+  //initialise
   initial begin
     q = 0;
     q_bar = 1;
   end
 
-
-  //behavioural model
-  always @(posedge clk)  // specifying positive edge clock pulse
+  always @(negedge pst or negedge clr or negedge clk) begin
+    if (!clr) begin
+      q     <= 0;
+      q_bar <= 1;
+    end
+    else if (!pst) begin
+      q     <= 1;
+      q_bar <= 0;
+    end
     
-    begin
-      case({t})
-        1'b0: begin q<=q;  q_bar<=q_bar; end
-        1'b1: begin q<=~q;  q_bar<=~q_bar; end  // very very important and not  q<=q_bar;  q_bar<=q; which is wrong
+    else begin
+      case (t)
+        1'b0: begin q <= q;     q_bar <= q_bar; end
+        1'b1: begin q <= ~q;    q_bar <= ~q_bar; end
       endcase
     end
- 
+  end
+
 endmodule
