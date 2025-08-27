@@ -45,7 +45,7 @@ The repository is organized into multiple categories of digital circuits:
 - [**4. Multiplexers and Demultiplexers**](./4.%20Multiplexers%20and%20Demultiplexers)  
 - [**5. Encoders and Decoders**](./5.%20Encoders%20and%20Decoders)  
 - [**6. Latches & Flip-Flops**](./6.%20Latches%20&%20Flip-Flops)
-- [**7. Shift Registers**](./6.%20Latches%20&%20Flip-Flops)
+- [**7. Shift Registers**](./7.%20Shift%20&%20Registers)
 
 ---
 
