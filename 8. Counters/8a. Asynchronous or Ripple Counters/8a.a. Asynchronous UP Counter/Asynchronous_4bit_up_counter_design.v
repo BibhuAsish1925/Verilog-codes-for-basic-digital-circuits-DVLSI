@@ -9,7 +9,7 @@ module Asynchronous_4bit_up_counter(
   T_flip_flop tff2(t,qin[1],qin[2],q_bar[2]);
   T_flip_flop tff3(t,qin[2],qin[3],q_bar[3]);
   
-  assign q=qin;
+  assign q=qin;   //in up counters output is from q's and the N.S clk is from q by default
   
 endmodule
 
@@ -36,4 +36,5 @@ module T_flip_flop(
       endcase
     end
  
+
 endmodule
