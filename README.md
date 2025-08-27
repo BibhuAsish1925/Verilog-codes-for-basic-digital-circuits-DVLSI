@@ -39,15 +39,6 @@ Mostly there will be less or no chances of error since the codes are already tes
 
 The repository is organized into multiple categories of digital circuits:
 
-- [Logic Gates](./Logic_gates)
-- [Adders and Subtractors](./Adders%20and%20Subtractors)
-- [Miscellaneous - 1](./Miscellaneous%20-%201)
-- [Multiplexers and Demultiplexers](./Multiplexers%20and%20Demultiplexers)
-- [Encoders and Decoders](./Encoders%20and%20Decoders)
-- [Latches & Flip-Flops](./Latches%20%26%20Flip-Flops)
-- [Shift Registers](./Shift%20Registers)
-- [Counters](./Counters)
-
 - [**1. Logic_gates**](./1.%20Logic_gates)  
 - [**2. Adders and Subtractors**](./2.%20Adders%20and%20Subtractors)  
 - [**3. Miscellaneous - 1**](./3.%20Miscellaneous%20-%201)  
