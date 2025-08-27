@@ -9,7 +9,7 @@ module T_flip_flop (
     q_bar=1;
   end
 
-  //we know if pst=0 then q=0,q_bar=1 and when clr=0 then q_bar=0,q=1
+  //we know if clr=0 then q=0,q_bar=1 and when pst=0 then q_bar=0,q=1
   always @(negedge pst or negedge clr or negedge clk) begin
     if (!clr) begin  //not of clr means low
       q<=0;
@@ -29,3 +29,4 @@ module T_flip_flop (
   end
 
 endmodule
+
