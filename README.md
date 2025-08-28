@@ -35,18 +35,19 @@ Mostly there will be less or no chances of error since the codes are already tes
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure  
 
-The repository is organized into multiple categories of digital circuits: 
+The repository is organized into multiple categories of digital circuits:  
 
 - [1. Logic_gates](./1.%20Logic_gates)  
 - [2. Adders and Subtractors](./2.%20Adders%20and%20Subtractors)  
 - [3. Miscellaneous - 1](./3.%20Miscellaneous%20-%201)  
 - [4. Multiplexers and Demultiplexers](./4.%20Multiplexers%20and%20Demultiplexers)  
 - [5. Encoders and Decoders](./5.%20Encoders%20and%20Decoders)  
-- [6. Latches and Flip-Flops](./6.%20Latches%20&%20Flip-Flops)  
+- [6. Latches and Flip-Flops](./6.%20Latches%20and%20Flip-Flops)  
 - [7. Shift Registers](./7.%20Shift%20Registers)  
 - [8. Counters](./8.%20Counters)  
+- [9. State Based Problems](./9.%20State%20Based%20Problems)  
 
 ---
 
