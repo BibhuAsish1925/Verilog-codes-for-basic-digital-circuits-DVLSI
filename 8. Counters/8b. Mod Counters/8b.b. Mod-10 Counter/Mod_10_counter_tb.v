@@ -1,30 +1,24 @@
-module tb_mod_10_counter;
+module tb;
 
-  reg clk;
-  reg t;
-  wire [3:0] q;
-  wire [3:0] q_bar;
+    reg clk;
+    reg rst_n;
+    wire [3:0] q;
 
-  //mod_10_counter uut (.clk(clk),.q(q),.q_bar(q_bar));
-  mod_10_counter uut (.t(t),.clk(clk),.q(q),.q_bar(q_bar));
+    mod_10_counter uut (.clk(clk),.rst_n(rst_n),.q(q));
 
-  // Clock generation: 10ns period
-  initial begin
-    clk = 0;
-    forever #5 clk = ~clk;
-  end
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
 
-  initial begin
-    $dumpfile("dump.vcd"); $dumpvars;
-    $display("Time\tclk\tq\tq_bar");
-    //$monitor("%0t\t%b\t%d\t%d", $time, clk, q, q_bar);
-    $monitor("%0t\t%b\t%b\t%d\t%d", $time, clk, t, q, q_bar);
-    
-    t=0; #10
-    t = 1;
-    #190;
-
-    $finish;
-  end
-
+    initial begin
+      $dumpfile("dump.vcd"); $dumpvars;
+   
+      rst_n = 0;#20;
+      rst_n = 1;#200;
+      rst_n = 0;#10;
+      rst_n = 1;#100;
+      $finish;
+    end
+        
 endmodule
