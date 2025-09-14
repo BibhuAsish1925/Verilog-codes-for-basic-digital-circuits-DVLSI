@@ -1,7 +1,7 @@
-module logic_gates_tb();
+module tb();
   reg a,b;
   wire and_out,or_out,nand_out,nor_out,notb_out,xor_out,xnor_out;
-  logic_gates uut(.a(a),.b(b),.and_out(and_out),.or_out(or_out),.notb_out(notb_out),.nand_out(nand_out),.nor_out(nor_out),.xor_out(xor_out),.xnor_out(xnor_out));
+  gate_logic uut(.a(a),.b(b),.and_out(and_out),.or_out(or_out),.notb_out(notb_out),.nand_out(nand_out),.nor_out(nor_out),.xor_out(xor_out),.xnor_out(xnor_out));
   integer i;
   
   initial begin
@@ -27,3 +27,4 @@ module logic_gates_tb();
     $finish;*/
   end
 endmodule
+
