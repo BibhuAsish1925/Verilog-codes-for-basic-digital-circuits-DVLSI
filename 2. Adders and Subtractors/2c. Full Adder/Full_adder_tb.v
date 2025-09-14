@@ -4,7 +4,7 @@ module full_adder_tb();
   wire sum, cout;
   integer i;
 
-  Full_adder uut(a, b, cin, sum, cout);
+  full_adder uut(a, b, cin, sum, cout);
 
   initial begin
     
@@ -18,3 +18,4 @@ module full_adder_tb();
   end
 
 endmodule
+
