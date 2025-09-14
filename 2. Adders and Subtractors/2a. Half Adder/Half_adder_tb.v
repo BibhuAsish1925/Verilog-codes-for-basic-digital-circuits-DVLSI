@@ -1,9 +1,9 @@
-module Half_Adder_tb();
+module tb();
   reg a, b; 
   wire sum, carry;
   integer i;
 
-  Half_Adder uut(a, b, sum, carry);
+  half_adder uut(a, b, sum, carry);
 
   initial begin
     $monitor("Time=%0t | a=%b b=%b => sum=%b carry=%b", $time, a, b, sum, carry);
@@ -15,3 +15,4 @@ module Half_Adder_tb();
     end
   end
 endmodule
+
