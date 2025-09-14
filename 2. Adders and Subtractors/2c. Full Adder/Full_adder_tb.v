@@ -1,18 +1,20 @@
-// TestBench:
-module tb2();
-  reg a,b,cin;
-  wire sum,cout;
-  int i;
-  full_adder uut(a,b,cin,sum,cout);
-  
+module full_adder_tb();
+
+  reg a, b, cin;
+  wire sum, cout;
+  integer i;
+
+  Full_adder uut(a, b, cin, sum, cout);
+
   initial begin
     
-    $dumpfile("dump.vcd"); $dumpvars;  
-    {a,b,cin}=0;
-    for(i=0;i<=8;i=i+1)
-      begin
-        {a,b,cin}=i;
-        #10;
-      end
+    $monitor("Time=%0t | a=%b b=%b cin=%b => sum=%b cout=%b", $time, a, b, cin, sum, cout);
+
+    {a, b, cin} = 0;
+    for (i = 0; i <= 8; i = i + 1) begin
+      {a, b, cin} = i;
+      #100;
+    end
   end
+
 endmodule
