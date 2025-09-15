@@ -3,7 +3,7 @@ module decoder_2x4_tb();
   wire [3:0]out;
   //int a;
   
-  decoder_2x4 uut(i,out);
+  decoder_2x4 uut(.i(i),.out(out));
   
   initial begin
 
@@ -22,3 +22,4 @@ module decoder_2x4_tb();
     $finish;
   end
 endmodule
+
