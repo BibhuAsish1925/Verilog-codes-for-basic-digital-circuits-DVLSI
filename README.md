@@ -56,7 +56,7 @@ The repository is organized into multiple categories of digital circuits:
 Each project folder contains:
 - `design.v` – The Verilog RTL code
 - `tb.v` – The testbench to verify the design
-- Optionally: waveform outputs, simulation logs
+- Optionally: RTL Schematic, Waveform outputs
 
 ---
 
