@@ -20,7 +20,6 @@ module bit_4_adder_cum_subtractor(
 endmodule
 
 
-
 module full_adder(a,b,cin,sum,cout);
   input a,b,cin;
   output sum,cout;
@@ -28,7 +27,3 @@ module full_adder(a,b,cin,sum,cout);
   assign cout = (a & b) | (b & cin) | (a & cin);
 endmodule
   
-  
-  
-  
-
