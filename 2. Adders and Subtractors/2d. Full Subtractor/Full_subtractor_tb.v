@@ -2,7 +2,7 @@ module Full_subtractor_tb();
   reg a,b,bin;
   wire diff,bout;
   integer i;
-  Full_subtractor uut(a,b,bin,diff,bout);
+  full_subtractor uut(a,b,bin,diff,bout);
   
   initial begin
     
@@ -15,3 +15,4 @@ module Full_subtractor_tb();
       end
   end
 endmodule
+
