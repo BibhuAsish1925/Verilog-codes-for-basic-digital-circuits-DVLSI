@@ -1,37 +1,35 @@
-# Verilog-codes-for-basic-digital-circuits-DVLSI
+<h1 align="center"> Verilog Codes for Basic Digital Circuits (DVLSI) </h1>
 
---- 
+---
 
 <p align="center">
   <b>Made by </b><br>
   <span style="font-size:80px"> <b>Bibhu Asish Panda</b> </span><br>
-  🎓 2022–26 Batch, Silicon University, Bhubaneswar (BBSR)  
+  🎓 Batch 2022–26, Silicon University, Bhubaneswar (BBSR)  
 </p>
 <p align="center">
-  Linkedin Profile :- www.linkedin.com/in/bibhu-asish-panda-05332b288
+  LinkedIn Profile: www.linkedin.com/in/bibhu-asish-panda-05332b288
 </p>
 
 ---
 
-This page is for Verilog codes for some basic digital circuits necessary for **academic** as well as **interview** prospective.
+This repository contains Verilog codes for basic digital circuits, useful for both **academic learning** and **interview preparation**.
 
 ---
 
-### In a design.v code, there contain multiple models of Verilog code which are :-
+### In a `design.v` file, each circuit contains multiple coding models:
 1. Dataflow  
-2. Behavioural  
+2. Behavioral  
 3. Structural  
-4. Gatelevel  
+4. Gate-level  
 
 ---
 
-### ✅ While testing we need to keep some points in our mind :-
-1. Choose one model and remove the Multi-line comment Block (`/* */`) at first and last of the model block.  
-2. Remember the model blocks should be under (`/* */`) since we can choose only 1 model at a time.  
-3. While executing all the models, use `output x,y,z` except in case of behavioural model i.e., `output reg x,y,z`. So comment the unused line.  
-4. Follow other instructions and syntax if any error occurs.  
-
-Mostly there will be less or no chances of error since the codes are already tested and verified and if used properly with above instructions and Verilog rules and syntaxes.  
+### ✅ Notes for Testing:
+1. Choose one model and remove the multi-line comment block (`/* */`) around it.  
+2. Keep all other model blocks under (`/* */`) since only one model can be active at a time.  
+3. While executing all models, use `output x,y,z` except in the behavioral model where you must use `output reg x,y,z`. Comment out unused lines accordingly.  
+4. Follow Verilog syntax rules and instructions; errors are rare since the codes are tested and verified.  
 
 ---
 
@@ -54,24 +52,24 @@ The repository is organized into multiple categories of digital circuits:
 ## 📂 Folder Structure
 
 Each project folder contains:
-- `design.v` – The Verilog RTL code
-- `tb.v` – The testbench to verify the design
-- Optionally: RTL Schematic, Waveform outputs
+- `design.v` – Verilog RTL code  
+- `tb.v` – Testbench to verify the design  
+- Optionally: RTL schematic, waveform outputs  
 
 ---
 
 ## 🛠 Tools Used
-- Language - Verilog HDL
-- Vivado / EDA playground / Xilinx
-- Git & GitHub for version control
-- ChatGPT for Github page designing and code refinement
+- **Language:** Verilog HDL  
+- **Software:** Vivado / EDA Playground / Xilinx  
+- **Version Control:** Git & GitHub  
+- **Assistance:** ChatGPT for README design and code refinement  
 
 ---
 
 ## ✅ Features
 - Covers **basic to intermediate Verilog codes**.  
-- Each design written in **multiple coding styles** (Dataflow, Behavioural, Structural, Gate-level).  
-- Codes are **tested and verified**.  
-- Helpful for **lab work, projects, and interviews**.  
+- Each design implemented in **multiple coding styles** (Dataflow, Behavioral, Structural, Gate-level).  
+- All codes are **tested and verified**.  
+- Useful for **lab work, projects, and interview preparation**.  
 
 ---
