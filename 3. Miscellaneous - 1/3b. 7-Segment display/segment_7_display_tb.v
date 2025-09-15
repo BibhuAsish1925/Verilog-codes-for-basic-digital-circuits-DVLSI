@@ -10,7 +10,7 @@ module segment_7_display_tb;
     $display("------------------------");
 
     for (i = 0; i < 10; i = i + 1) begin
-      #10; 
+      #100; 
       $display("%4dns | %d | %b %b %b %b %b %b %b", $time, i, a, b, c, d, e,f, g);
     end
 
