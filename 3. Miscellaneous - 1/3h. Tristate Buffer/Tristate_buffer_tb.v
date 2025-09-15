@@ -1,16 +1,15 @@
-module tb4;
+module tristate_buffer_tb();
   reg  in, en;
   wire out;
 
-  tristate_buffer uut(in, en, out);
+  tristate_buffer uut(.in(in), .en(en), .out(out));
 
   initial begin
-    $dumpfile("dump.vcd"); $dumpvars;
 
-    in = 0; en = 0; #10;  
-    in = 1; en = 0; #10;  
-    in = 0; en = 1; #10;  
-    in = 1; en = 1; #10; 
+    in = 0; en = 0; #100;  
+    in = 1; en = 0; #100;  
+    in = 0; en = 1; #100;  
+    in = 1; en = 1; #100; 
 
   end
 endmodule
