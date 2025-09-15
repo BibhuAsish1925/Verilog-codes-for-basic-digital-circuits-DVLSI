@@ -1,4 +1,3 @@
-// 1.Logic Gates using Gate I level model
 module gate_logic(
   input a,b,
   output and_out,or_out,nand_out,nor_out,notb_out,xor_out,xnor_out);
@@ -21,4 +20,5 @@ module gate_logic(
   assign xor_out = (a & ~b) | (~a & b);
   assign xnor_out = (~a & ~b) | (a & b);
   
+
 endmodule
