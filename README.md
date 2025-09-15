@@ -61,9 +61,10 @@ Each project folder contains:
 ---
 
 ## 🛠 Tools Used
-- Verilog HDL
-- EDA playground / Vivado
+- Language - Verilog HDL
+- Vivado / EDA playground / Xilinx
 - Git & GitHub for version control
+- ChatGPT for Github page designing and code refinement
 
 ---
 
