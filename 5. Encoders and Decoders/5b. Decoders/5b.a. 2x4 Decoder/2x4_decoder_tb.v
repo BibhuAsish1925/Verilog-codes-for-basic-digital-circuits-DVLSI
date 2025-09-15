@@ -1,4 +1,4 @@
-module tb1();
+module decoder_2x4_tb();
   reg [1:0]i; 
   wire [3:0]out;
   //int a;
@@ -6,20 +6,19 @@ module tb1();
   decoder_2x4 uut(i,out);
   
   initial begin
-    
-    $dumpfile("dump.vcd"); $dumpvars;
+
     i=2'b00; 
-    #5;
+    #100;
     i=2'b01; 
-    #5;
+    #100;
     i=2'b10; 
-    #5;
+    #100;
     i=2'b11; 
-    #5;
+    #100;
     i=2'b10; 
-    #5;
+    #100;
     i=2'b01; 
-    #5;
-    
+    #100;
+    $finish;
   end
 endmodule
