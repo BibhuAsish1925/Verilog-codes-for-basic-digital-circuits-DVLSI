@@ -12,7 +12,9 @@ module tb2();
     for(i=0;i<=8;i=i+1)
       begin
         {a,b,bin}=i;
-        #10;
+        #100;
       end
+    $finish
   end
+
 endmodule
