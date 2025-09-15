@@ -11,8 +11,9 @@ module bit_4_even_parity_gen_tb();
     {b3,b2,b1,b0}=0;
     for(i=0; i<=15; i=i+1)
       begin
-        {b3,b2,b1,b0}=i; #10;
+        {b3,b2,b1,b0}=i; #50;
       end
   end
 endmodule
+
     
