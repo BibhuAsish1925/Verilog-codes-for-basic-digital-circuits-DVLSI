@@ -1,36 +1,36 @@
-module tb1();
+module decoder_3x8_tb();
   reg [2:0]i; 
   wire [7:0]out;
   //int a;
   
-  decoder_3x8 uut(i,out);
+  decoder_3x8 uut(.i(i),.out(out));
   
   initial begin
     
-    $dumpfile("dump.vcd"); $dumpvars;
     i=8'b000; 
-    #5;
+    #100;
     i=8'b001; 
-    #5;
+    #100;
     i=8'b010; 
-    #5;
+    #100;
     i=8'b011; 
-    #5;
+    #100;
     i=8'b100; 
-    #5;
+    #100;
     i=8'b101; 
-    #5;
+    #100;
     i=8'b110; 
-    #5;
+    #100;
     i=8'b111; 
-    #5;
+    #100;
     
     i=8'b011; 
-    #5;
+    #100;
     i=8'b110; 
-    #5;
+    #100;
     i=8'b010; 
-    #5;
+    #100;
     
+    $finish;
   end
 endmodule
