@@ -1,4 +1,4 @@
-module gate_logic(
+module logic_gates(
   input a,b,
   output and_out,or_out,nand_out,nor_out,notb_out,xor_out,xnor_out);
   
@@ -22,3 +22,4 @@ module gate_logic(
   
 
 endmodule
+
