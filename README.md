@@ -1,6 +1,5 @@
 <h1 align="center"> Verilog Codes for Basic Digital Circuits (DVLSI) </h1>
 
----
 
 <p align="center">
   <b>Made by </b><br>
