@@ -1,18 +1,18 @@
-module tb1();
+module demux_1x2_tb();
   reg in, en, s; 
   wire [1:0]y;
-  int a;
+  integer a;
   
-  demux_1x2 uut(in,en,s,y);
+  demux_1x2 uut(.in(in),.en(en),.s(s),.y(y));
   
   initial begin
     
-    $dumpfile("dump.vcd"); $dumpvars;
     {en,s,in}=0;
     for(a=0;a<=8;a=a+1)
       begin
-        {en,s,in}=a; #10;
+        {en,s,in}=a; #100;
       end
+      $finish;
     
   end
 endmodule
