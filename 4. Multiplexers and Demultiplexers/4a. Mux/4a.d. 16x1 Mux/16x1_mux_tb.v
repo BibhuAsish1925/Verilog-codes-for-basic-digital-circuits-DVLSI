@@ -1,14 +1,13 @@
-module tb1();
+module mux_16x1_tb();
+
   reg [15:0]i;
   reg [3:0]s; 
   wire out;
   //int a;
   
-  mux_16x1 uut(i,s,out);
+  mux_16x1 uut(.i(i),.s(s),.out(out));
   
   initial begin
-    
-    $dumpfile("dump.vcd"); $dumpvars;
     
     i = 16'b0000000000000001; s = 4'b0000; #10;
     i = 16'b0000000000000010; s = 4'b0001; #10;
