@@ -1,6 +1,7 @@
-module squares_3bit(in, out);
-  input  [2:0] in;
-  output [5:0] out;
+module square_of_3bit_binary(
+  input  [2:0] in,
+  output [5:0] out
+  );
   
   // might show incorrect value after 3
   
