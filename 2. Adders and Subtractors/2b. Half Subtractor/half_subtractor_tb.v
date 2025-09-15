@@ -1,10 +1,9 @@
-// Test Bench:
-module tb1();
+module Half_subtractor_tb;
   reg a,b; 
   wire diff,bor;
-  int i;
+  integer i;
   
-  half_sub uut(a,b,diff,bor);
+  half_subtractor uut(a,b,diff,bor);
   
   initial begin
     $dumpfile("dump.vcd");
@@ -13,8 +12,7 @@ module tb1();
     for(i=0;i<=4;i=i+1)
       begin
         {a,b}=i;
-        #10;
+        #100;
       end
   end
 endmodule
-    
