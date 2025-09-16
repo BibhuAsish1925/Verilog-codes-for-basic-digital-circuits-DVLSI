@@ -1,21 +1,18 @@
-module tb1();
+module RS_latch_tb();
   reg r,s;
   wire q,q_bar;
   integer i;
   
-  RS_latch uut(s,r,q,q_bar);
+  RS_latch uut(.s(s),.r(r),.q(q),.q_bar(q_bar));
   
   initial begin
-    $dumpfile("dump.vcd"); $dumpvars;
     
     {r,s}=0;
-    for(i=0;i<=8;i=i+1)
+    for(i=0;i<=8;i=i+1)  //we need 4 only
       begin
         {r,s}=i;
-        #10;
+        #100;
       end
   end
   
 endmodule
-        
-    
