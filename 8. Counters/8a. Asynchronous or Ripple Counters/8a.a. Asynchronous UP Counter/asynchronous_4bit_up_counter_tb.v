@@ -3,7 +3,7 @@ module asynchronous_4bit_up_counter_tb;
   wire [3:0] q;
   wire [3:0] q_bar;
 
-  // Use only one at a time:
+  // Uncomment the one you want to test
   asynchronous_4bit_up_counter_struct uut(.t(t), .clk(clk), .q(q), .q_bar(q_bar));
   //asynchronous_4bit_up_counter_behav uut(.clk(clk), .t(t), .q(q));
 
@@ -26,4 +26,5 @@ module asynchronous_4bit_up_counter_tb;
 
     $finish;
   end
+
 endmodule
