@@ -3,7 +3,7 @@ module asynchronous_4bit_down_counter_tb();
   wire [3:0] q_struct, q_bar_struct;
   wire [3:0] q_behav;
 
-  // DUT instantiations
+  // Uncomment the one you want to test
   //asynchronous_4bit_down_counter_struct uut(.t(t),.clk(clk),.q(q_struct),.q_bar(q_bar_struct));
   asynchronous_4bit_down_counter_behav uut(.t(t),.clk(clk),.q(q_behav));
 
@@ -23,4 +23,5 @@ module asynchronous_4bit_down_counter_tb();
 
     $finish;
   end
+
 endmodule
