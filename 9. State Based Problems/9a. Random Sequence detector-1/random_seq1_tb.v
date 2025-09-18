@@ -1,6 +1,5 @@
-module tb;
-
-  reg clk;
+module Random_seq_detector1_tb();
+reg clk;
   //reg [2:0]t;
   wire [2:0] qout;
 
@@ -14,7 +13,7 @@ module tb;
   end
 
   initial begin
-    $dumpfile("dump.vcd"); $dumpvars;
+  
     $display("Time\tclk\tt\tqout");
     //$monitor("%0t\t%b\t%b\t%d", $time, clk, t, qout);
     
