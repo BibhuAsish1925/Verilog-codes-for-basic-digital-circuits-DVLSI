@@ -89,12 +89,12 @@ Below are some screenshots of RTL design, testbench results, and waveform output
 
 <table align="center">
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/.../<img width="1918" height="996" alt="ssp4" src="https://github.com/user-attachments/assets/ca2eb864-18de-43a1-a6df-5aaf9bc01549" />
-    <td><img src="https://user-images.githubusercontent.com/.../<img width="1917" height="1017" alt="ssp1" src="https://github.com/user-attachments/assets/d6dfa37f-c290-441b-bef5-6b3d95ffa1dc" />
+    <td><img src="https://user-images.githubusercontent.com/.../ss9d1.png" width="400" alt="Vivado Screenshot 1"/></td>
+    <td><img src="https://user-images.githubusercontent.com/.../ss9d2.png" width="400" alt="Vivado Screenshot 2"/></td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/.../<img width="1918" height="1020" alt="ssp2" src="https://github.com/user-attachments/assets/fde29ba0-040b-45d7-87ae-e07a4860daea" />
-    <td><img src="https://user-images.githubusercontent.com/.../<img width="1918" height="1017" alt="ssp3" src="https://github.com/user-attachments/assets/a4ce4a40-7f1a-4230-ba05-52ac35d71b2f" />
+    <td><img src="https://user-images.githubusercontent.com/.../ss9d3.png" width="400" alt="Vivado Screenshot 3"/></td>
+    <td><img src="https://user-images.githubusercontent.com/.../ss9d4.png" width="400" alt="Vivado Screenshot 4"/></td>
   </tr>
 </table>
 
