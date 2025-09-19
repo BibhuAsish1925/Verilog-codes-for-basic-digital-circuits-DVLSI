@@ -1,4 +1,4 @@
-// Sequence detector: detects 3 or more consecutive 1's
+// Sequence detector: detects 3 or more consecutive 1's in the Overlapping method
 module sequence_detector1(
     input x, clk,
     output y, qa_bar, qb_bar
@@ -32,3 +32,4 @@ module D_flip_flop_behav(
     end
     assign q_bar = ~q;
 endmodule
+
