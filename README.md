@@ -86,12 +86,12 @@ Below are some screenshots of RTL design, testbench results, and waveform output
 
 <table align="center">
   <tr>
-    <td><img width="500" alt="ssp4" src="https://github.com/user-attachments/assets/02b9d263-fe49-4ede-918c-189329898ad7" /></td>
-    <td><img width="500" alt="ssp1" src="https://github.com/user-attachments/assets/4e72139f-1344-4438-8f9f-0398128334d7" /></td>
+    <td><img width="500" alt="ssp4" src="https://github.com/user-attachments/assets/02b9d263-fe49-4ede-918c-189329898ad7" /></td> Xilinx dashboard
+    <td><img width="500" alt="ssp1" src="https://github.com/user-attachments/assets/4e72139f-1344-4438-8f9f-0398128334d7" /></td> Combinational Circuits
   </tr>
   <tr>
-    <td><img width="500" alt="ssp2" src="https://github.com/user-attachments/assets/bdc0c0f0-8da2-4cc1-95f1-0c3331226c9b" /></td>
-    <td><img width="500" alt="ssp3" src="https://github.com/user-attachments/assets/999777f4-422a-4998-871f-bd8ff49ff6a1" /></td>
+    <td><img width="500" alt="ssp2" src="https://github.com/user-attachments/assets/bdc0c0f0-8da2-4cc1-95f1-0c3331226c9b" /></td> Sequencial Circuits
+    <td><img width="500" alt="ssp3" src="https://github.com/user-attachments/assets/999777f4-422a-4998-871f-bd8ff49ff6a1" /></td> State Machines
   </tr>
 </table>
 
