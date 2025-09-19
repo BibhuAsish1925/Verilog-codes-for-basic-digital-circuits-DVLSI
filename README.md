@@ -98,5 +98,7 @@ Below are some screenshots of RTL design, testbench results, and waveform output
   </tr>
 </table>
 
+<img src="https://github.com/user-attachments/assets/<img width="1918" height="996" alt="ssp4" src="https://github.com/user-attachments/assets/02b9d263-fe49-4ede-918c-189329898ad7" />" width="700"/>
+
 ---
 
