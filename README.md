@@ -80,7 +80,7 @@ Each project folder contains:
 
 ---
 
-## 📷 Proof of Testing (Vivado Outputs)
+## 📷 My Works on Xilinx Vivado
 
 Below are some screenshots of RTL design, testbench results, and waveform outputs as proof of testing in **Vivado**.  
 
