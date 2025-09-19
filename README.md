@@ -85,10 +85,10 @@ Each project folder contains:
 Below are some screenshots of RTL design, testbench results, and waveform outputs as proof of testing in **Vivado**.  
 
 <p align="center">
-  <img src="<img width="1918" height="996" alt="ssp4" src="https://github.com/user-attachments/assets/95710f2f-8e5b-47ff-837a-1a64440c2198" />" width="500"/>
-  <img src="<img width="1917" height="1017" alt="ssp1" src="https://github.com/user-attachments/assets/f32f1117-fbd0-42d2-8c64-76cdfa0eca96" />" width="500"/>  
-  <img src="<img width="1918" height="1020" alt="ssp2" src="https://github.com/user-attachments/assets/c74c265f-83ab-4381-b73c-9c8dd59f515a" />" width="500"/>  
-  <img src="<img width="1918" height="1017" alt="ssp3" src="https://github.com/user-attachments/assets/d19b5ccb-8b17-4225-beb8-0b785c913aad" />" width="500"/>    
+  <img src="<img width="1918" height="996" alt="ssp4" src="https://github.com/user-attachments/assets/95710f2f-8e5b-47ff-837a-1a64440c2198" /> width="500"/>
+  <img src="<img width="1917" height="1017" alt="ssp1" src="https://github.com/user-attachments/assets/f32f1117-fbd0-42d2-8c64-76cdfa0eca96" /> width="500"/>  
+  <img src="<img width="1918" height="1020" alt="ssp2" src="https://github.com/user-attachments/assets/c74c265f-83ab-4381-b73c-9c8dd59f515a" /> width="500"/>  
+  <img src="<img width="1918" height="1017" alt="ssp3" src="https://github.com/user-attachments/assets/d19b5ccb-8b17-4225-beb8-0b785c913aad" /> width="500"/>    
 </p>
 
 ---
