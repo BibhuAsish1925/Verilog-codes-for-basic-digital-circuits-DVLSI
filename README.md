@@ -84,9 +84,6 @@ Each project folder contains:
 
 Below are some screenshots of RTL design, testbench results, and waveform outputs as proof of testing in **Vivado**.  
 
-<h2 align="center">📷 Proof of Testing (Vivado Outputs)</h2>
-<p align="center">Below are some screenshots of RTL design, testbench results, and waveform outputs as proof of testing in <strong>Vivado</strong>.</p>
-
 <table align="center">
   <tr>
     <td><img width="500" alt="ssp4" src="https://github.com/user-attachments/assets/02b9d263-fe49-4ede-918c-189329898ad7" /></td>
