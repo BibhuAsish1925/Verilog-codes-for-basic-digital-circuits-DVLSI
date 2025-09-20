@@ -1,4 +1,4 @@
-module tb;
+module even_parity_checker_tb();
   reg [3:0]in;
   reg p;
   wire error;
@@ -15,4 +15,5 @@ module tb;
 
     $finish;
   end
+
 endmodule
