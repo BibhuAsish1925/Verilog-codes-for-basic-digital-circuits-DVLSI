@@ -1,4 +1,4 @@
-module tb();
+module Half_adder_tb();
   reg a, b; 
   wire sum, carry;
   integer i;
@@ -15,4 +15,5 @@ module tb();
     end
   end
 endmodule
+
 
