@@ -1,4 +1,4 @@
-<h1 align="center"> Verilog Codes for Basic Digital Circuits (DVLSI) </h1>
+<h1 align="center"> Verilog Codes for Basic Digital Circuits (DVLSI) - (part - 1) </h1>
 
 <p align="center">
   <b>Made by</b><br>
@@ -13,6 +13,7 @@
 ---
 
 This repository contains Verilog codes for basic digital circuits, useful for both **academic learning** and **interview preparation**.
+This repository is the part-1 of my verilog work. And part-2 Link :-
 
 ---
 
